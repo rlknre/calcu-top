@@ -19,5 +19,6 @@
 /* color changes for operators  */
 .math-button.operator { background-color: #777777; }
 .math-button.clear { background-color: #777777; }
+.math-button.negate { background-color: #777777; }
 #allClear { background-color: #B22222 ; }
 #equals { background-color: #228B22; }
