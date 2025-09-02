@@ -8,38 +8,39 @@
     </head>
     <body>
         <div class="container">
-            <div class="screen">0</div>
+            <div class="screen" id="screenText"> </div>
             <div class="button-container">
                 <div class="math-row" id="firstRow">
-                    <button class="math-button operator" id="allClear"> AC </button>
-                    <button class="math-button operator"> CE </button>
-                    <button class="math-button operator"> +/- </button>
-                    <button class="math-button operator"> / </button>
+                    <button class="math-button clear" id="allClear"> AC </button>
+                    <button class="math-button clear" id="singleClear"> CE </button>
+                    <button class="math-button operator" id="negateNum"> +/- </button>
+                    <button class="math-button operator" id="divide"> / </button>
                 </div>
                 <div class="math-row"  id="secondRow">
-                    <button class="math-button"> 7 </button>
-                    <button class="math-button"> 8 </button>
-                    <button class="math-button"> 9 </button>
-                    <button class="math-button operator"> x </button>
+                    <button class="math-button operand" id="seven"> 7 </button>
+                    <button class="math-button operand" id="eight"> 8 </button>
+                    <button class="math-button operand" id="nine"> 9 </button>
+                    <button class="math-button operator" id="multiply"> x </button>
                 </div>
                 <div class="math-row"  id="thirdRow">
-                    <button class="math-button"> 4 </button>
-                    <button class="math-button"> 5 </button>
-                    <button class="math-button"> 6 </button>
-                    <button class="math-button operator"> - </button>
+                    <button class="math-button operand" id="four"> 4 </button>
+                    <button class="math-button operand" id="five"> 5 </button>
+                    <button class="math-button operand" id="six"> 6 </button>
+                    <button class="math-button operator" id="subtract"> - </button>
                 </div>
                 <div class="math-row"  id="fourthRow">
-                    <button class="math-button"> 1 </button>
-                    <button class="math-button"> 2 </button>
-                    <button class="math-button"> 3 </button>
-                    <button class="math-button operator"> + </button>
+                    <button class="math-button operand" id="one"> 1 </button>
+                    <button class="math-button operand" id="two"> 2 </button>
+                    <button class="math-button operand" id="three"> 3 </button>
+                    <button class="math-button operator" id="add"> + </button>
                 </div>
                 <div class="math-row"  id="fifthRow">
-                    <button class="math-button" id="zero"> 0 </button>
+                    <button class="math-button operand" id="zero"> 0 </button>
                     <button class="math-button" id="decimal"> . </button>
                     <button class="math-button" id="equals"> = </button>
                 </div>
             </div>
         </div>
+        <script type="module" src="./logic/calculator.js"></script>
     </body>
 </html>
