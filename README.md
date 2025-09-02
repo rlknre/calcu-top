@@ -9,7 +9,7 @@ A simple calculator page for one of The Odin Project's foundational courses.
 - Purely Vanilla CSS (flex box).
 - Simple JavaScript DOM manipulation and functions.
 
-[<img src="images/sample-view.png" alt="Sample View" width=514px>](image/sample-view.png)
+[<img src="images/sample-view.png" alt="Sample View" width=514px>](images/sample-view.png)
 
 ##
 
