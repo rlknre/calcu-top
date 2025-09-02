@@ -57,6 +57,15 @@ allClearButton.addEventListener('click', () => {
 operandButton.forEach(button => {
     button.addEventListener('click', function() {
         if (activeOperator !== 'none') {
+
+            // catch 0 division
+            if (activeOperator === 'divide') {
+                const num = this.textContent.trim();
+                if (num == 0) {
+                    console.log('ERROR: Can\'t divide by zero');
+                    return;
+                }
+            }
             refresh();
         }
         const num = this.textContent.trim();
