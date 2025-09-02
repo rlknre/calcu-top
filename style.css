@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     height: 70vh;
     width: 55vh;
+    margin: 2em;
     background-color: #222222;
     border: 2px solid #777777;
     border-top-left-radius: 2em;
